@@ -9,9 +9,9 @@ import { Context } from '../../config/Context';
 
 const ClubHome = () => {
     const { id } = useParams();
-    const [clubs, setClubs] = useState(undefined);
+    //const [clubs, setClubs] = useState(undefined);
     const { email, setEmail } = useContext(Context);
-    // const [email, setEmail] = useState(undefined);
+    
 
     const [data, setData] = useState([]);
 
@@ -54,7 +54,7 @@ const ClubHome = () => {
                             <div className="row customRow">
                                 <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 descriptionDiv">
                                     <div className='desc'>
-                                        <h1 className='describe'>Welcome to our Coding Club</h1>
+                                        <h1 className='describe'>Welcome to our Club</h1>
                                         <h4 className='sub-describe'>We are here to code your life and execute successfully!</h4>
                                     </div>
                                 </div>

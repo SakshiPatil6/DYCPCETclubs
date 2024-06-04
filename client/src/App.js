@@ -26,30 +26,30 @@ import ClubHomePage from './Components/ClubWebsite/ClubHome';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DYCPCETclubs">
       <AppContext>
       <Routes>
-      <Route path='/' element=<MainHome/>/>
+      <Route path='/' element={<MainHome/>}/>
         <Route path='/CenAdminAuth' element={<CenAdminAuth />} />
         <Route path='/reqform' element={<RequestForm />} />
-        <Route path='/CenAdminHomePage' element=<CenAdminHome /> />
-        <Route path='/events' element=<Event /> />
-        <Route path='/adminPanel' element=<AdminPanel /> />
-        <Route path='/clubCards' element=<ClubsCard /> />
-        <Route path='/subAdminPanel' element=<SubAdminPanel /> />
-        <Route path='/navbar' element=<Navbar_b /> />
-        <Route path='/gallery' element=<Gallery /> />
-        <Route path='/eventSlider' element=<EventSlider /> />
-        <Route path='/about' element=<About /> />
-        <Route path='/teamCoding' element=<TeamCoding /> />
-        <Route path='/vision' element=<Vision /> />
-        <Route path='/addAboutUs' element=<AddAboutUs /> />
-        <Route path='/clubHome/:id' element=<ClubHome /> />
-        <Route path='/subAdminAuth' element=<SubAdminAuth /> />
-        <Route path='/subAdminEntryPage' element=<SubAdminEntryPage /> />
-        <Route path='/ForgotPassSub/:id/:token' element=<ForgotPassSub /> />
-          <Route path='/EmailSub' element=<EmailSub /> />
-          <Route path='/ClubHomePage/:id' element=<ClubHomePage /> />
+        <Route path='/CenAdminHomePage' element={<CenAdminHome />} />
+        <Route path='/events' element={<Event />} />
+        <Route path='/adminPanel' element={<AdminPanel />} />
+        <Route path='/clubCards' element={<ClubsCard />} />
+        <Route path='/subAdminPanel' element={<SubAdminPanel />} />
+        <Route path='/navbar' element={<Navbar_b />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/eventSlider' element={<EventSlider />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/teamCoding' element={<TeamCoding />} />
+        <Route path='/vision' element={<Vision />} />
+        <Route path='/addAboutUs' element={<AddAboutUs />} />
+        <Route path='/clubHome/:id' element={<ClubHome />} />
+        <Route path='/subAdminAuth' element={<SubAdminAuth />} />
+        <Route path='/subAdminEntryPage' element={<SubAdminEntryPage />} />
+        <Route path='/ForgotPassSub/:id/:token' element={<ForgotPassSub /> }/>
+          <Route path='/EmailSub' element={<EmailSub />} />
+          <Route path='/ClubHomePage/:id' element={<ClubHomePage />} />
       </Routes>
       </AppContext>
     </BrowserRouter>
