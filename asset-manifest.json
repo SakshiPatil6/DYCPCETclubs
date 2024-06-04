@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DYCPCETclubs/static/css/main.2bcc1116.css",
-    "main.js": "/DYCPCETclubs/static/js/main.09af82e0.js",
+    "main.js": "/DYCPCETclubs/static/js/main.b97f8935.js",
     "static/js/453.419a5d54.chunk.js": "/DYCPCETclubs/static/js/453.419a5d54.chunk.js",
     "static/media/logoo.png": "/DYCPCETclubs/static/media/logoo.708375c6c91fb397d76d.png",
     "static/media/cc.png": "/DYCPCETclubs/static/media/cc.3f751501a28c17e50910.png",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/DYCPCETclubs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/DYCPCETclubs/index.html",
     "main.2bcc1116.css.map": "/DYCPCETclubs/static/css/main.2bcc1116.css.map",
-    "main.09af82e0.js.map": "/DYCPCETclubs/static/js/main.09af82e0.js.map",
+    "main.b97f8935.js.map": "/DYCPCETclubs/static/js/main.b97f8935.js.map",
     "453.419a5d54.chunk.js.map": "/DYCPCETclubs/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2bcc1116.css",
-    "static/js/main.09af82e0.js"
+    "static/js/main.b97f8935.js"
   ]
 }
