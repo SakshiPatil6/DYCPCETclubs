@@ -5,7 +5,7 @@ export const Context = createContext();
 
 const AppContext = ({children}) => {
 
-    const [loginInfo, setLoginInfo] = useState();
+    const [loginInfo, setLoginInfo] = useState(null);
     const [email, setEmail] = useState();
 
     return(

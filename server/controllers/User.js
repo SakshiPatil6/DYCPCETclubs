@@ -223,6 +223,11 @@ exports.readEvents = async (req, res) => {
 exports.uploadGallery = async (req, res) => {
   try {
     const { email, image } = req.body;
+     // Validate required fields
+     if (!email || !image) {
+      return res.status(400).json({ message: "Email and image are required" });
+    }
+
     const response = await AddGallery.create({ email, image });
     return res.json(response);
   } catch (error) {
