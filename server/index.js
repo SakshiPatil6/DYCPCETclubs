@@ -14,7 +14,6 @@ dbconnect();
 server.use("/", userRoutes);
 server.use("/file", fileRoutes);
 
-
 const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => {
     console.log("Server started!!");
